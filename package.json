@@ -1,0 +1,22 @@
+{
+  "name": "local-chat-app",
+  "version": "1.0.0",
+  "description": "A fully local alternative to Azure OpenAI and similar cloud services",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "index-docs": "node backend/document-indexer.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-ollama": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "@qdrant/js-client": "^1.6.0",
+    "@xenova/transformers": "^2.6.0",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.6.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
